@@ -5,17 +5,77 @@ body {
     margin: 0;
     padding: 0;
     background-color: lightblue;
+    line-height: 2;
   }
   .container {
       text-align: center;
   }
+
   h1 {
     color: #000000;
   }
-  p {
-    color: #3f3f3f;
+
+  div.container {
+    text-align: center;
   }
+  
+  ul.list {
+    display: inline-block;
+    text-align: left;
+  }
+
+  div.footer {
+    background-color: #1bb400;
+  }
+
   a {
     color: #007bff;
     text-decoration: none;
   }
+
+  div.img {
+    transform: rotate(270deg);
+}
+
+.keyc{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+svg{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#graph-container{
+  margin: 8px;
+  justify-content: left;
+  align-items: left;
+  height: 10px;
+}
+
+#text-based_summary {
+  text-align: center;
+}
+
+.heading{
+  justify-content:center;
+  fill: red;
+}
+
+.labels{
+  text-decoration: underline;
+}
+
+.queens:hover{
+  fill:red
+}
+
+#heading{
+  text-align: center;
+}
+
+  
